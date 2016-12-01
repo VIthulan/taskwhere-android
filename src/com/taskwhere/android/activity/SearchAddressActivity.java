@@ -18,14 +18,7 @@ import com.markupartist.android.widget.ActionBar;
 import com.markupartist.android.widget.ActionBar.Action;
 import com.markupartist.android.widget.ActionBar.IntentAction;
 
-/**
- * 
- * @author burak
- * @date 26 Aug 2011
- * 
- * activity allows user to search address
- * on maps and animate to that address on map.
- */
+
 public class SearchAddressActivity extends Activity {
 
 	private static boolean addressSearch;

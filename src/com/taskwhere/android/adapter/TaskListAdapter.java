@@ -17,14 +17,6 @@ import android.widget.TextView.BufferType;
 import com.taskwhere.android.activity.R;
 import com.taskwhere.android.model.Task;
 
-/**
- * 
- * @author burak
- * @date 26 Aug 2011
- * 
- * {@link ArrayAdapter} implementation for 
- * TaskWhereActivity activity 
- */
 public class TaskListAdapter extends ArrayAdapter<Task>{
 
 	private final static String TW = "TaskWhere";

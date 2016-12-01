@@ -50,14 +50,6 @@ import com.markupartist.android.widget.ActionBar.IntentAction;
 import com.taskwhere.android.adapter.TaskListDbAdapter;
 import com.taskwhere.android.model.Task;
 
-/**
- * 
- * @author burak
- * @date 26 Aug 2011
- * 
- * activity allows user the compose new task
- * with task location, task text and coordinates on map
- */
 public class AddTaskActivity extends MapActivity{
 
 	
@@ -149,12 +141,7 @@ public class AddTaskActivity extends MapActivity{
 		Log.d(TW, "Preferences Unique_id = " + unique_id);
 		
 		Bundle extras = getIntent().getExtras();
-	        
-	    /*
-	    * redirect from search address activity
-	    * find location of the given address 
-	    * update map accordingly
-	    */
+
 	    if(extras != null){
 	        	
 	    	if(extras.getBoolean(SEARCH_REDIRECT) && extras.getString(SEARCH_ADDRESS) != null){

@@ -16,14 +16,6 @@ import com.taskwhere.android.activity.R;
 import com.taskwhere.android.activity.TaskWhereActivity;
 import com.taskwhere.android.activity.R.drawable;
 
-/**
- * 
- * @author burak
- * @data 27 Aug 2011
- * 
- * Broadcast reciever to fire notifications
- * when user enters the proximity area
- */
 public class ProximityAlertReciever extends BroadcastReceiver{
 
 	private static final String TW = "TaskWhere";
@@ -71,7 +63,7 @@ public class ProximityAlertReciever extends BroadcastReceiver{
 	/**
 	 * 
 	 * @param context
-	 * @param intent
+	 * //@param intent
 	 * @param contentText
 	 * 
 	 * Create notification based on the action taken 
@@ -90,11 +82,11 @@ public class ProximityAlertReciever extends BroadcastReceiver{
 		PendingIntent contentIntent = PendingIntent.getActivity(context, 0, notificationIntent, 0);
 
 		
-		Notification notificationEnter = new Notification(icon, tickerText, when);
+		/*Notification notificationEnter = new Notification(icon, tickerText, when);
 		notificationEnter.defaults |= Notification.DEFAULT_VIBRATE;
 		long[] vibrateEnter = {0,100,200,300};
 		notificationEnter.vibrate = vibrateEnter;
-		notificationEnter.setLatestEventInfo(context, contentTitle, contentText, contentIntent);
-		mgr.notify(NOTIFICATION_ID, notificationEnter);
+//		notificationEnter.setLatestEventInfo(context, contentTitle, contentText, contentIntent);
+		mgr.notify(NOTIFICATION_ID, notificationEnter);*/
 	}
 }

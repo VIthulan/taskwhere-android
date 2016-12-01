@@ -11,14 +11,6 @@ import android.util.Log;
 
 import com.taskwhere.android.model.Task;
 
-/**
- * 
- * @author burak
- * @date 26 Aug 2011
- * 
- * Database adapter for some generic
- * database operations like CREATE,UPDATE,SELECT
- */
 public class TaskListDbAdapter {
 
 	private final static String TW = "TaskWhere";

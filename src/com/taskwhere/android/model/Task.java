@@ -2,14 +2,6 @@ package com.taskwhere.android.model;
 
 import java.io.Serializable;
 
-
-/**
- * 
- * @author burak
- * @date 26 Aug 2011
- * 
- * Simple {@link Task} model object
- */
 public class Task implements Serializable{
 
 	private static final long serialVersionUID = 3762749485709681937L;

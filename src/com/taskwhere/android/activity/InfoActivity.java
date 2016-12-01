@@ -10,14 +10,6 @@ import com.markupartist.android.widget.ActionBar;
 import com.markupartist.android.widget.ActionBar.Action;
 import com.markupartist.android.widget.ActionBar.IntentAction;
 
-/**
- * 
- * @author burak
- * @date 26 Aug 2011
- * 
- * activity that gives information about
- * how to use application and send feedback
- */
 public class InfoActivity extends Activity {
 
 	@Override

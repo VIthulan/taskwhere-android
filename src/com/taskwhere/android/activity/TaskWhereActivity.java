@@ -26,14 +26,6 @@ import com.taskwhere.android.model.Task;
 import com.taskwhere.android.widget.ActionItem;
 import com.taskwhere.android.widget.QuickAction;
 
-/**
- * 
- * @author burak
- * @date 26 Aug 2011,
- * 
- * main activity that show the list 
- * of saved tasks to the user
- */
 public class TaskWhereActivity extends Activity {
     
 	private final static String TW = "TaskWhere";
